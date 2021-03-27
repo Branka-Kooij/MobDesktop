@@ -1,8 +1,7 @@
-@media  (max-width:600px) 
+
     
 
-    {
-        .container
+      .container
         {
             margin:auto;
             width: :100%;
@@ -55,8 +54,7 @@ background:#d8ebe4;
 
 }
 
-}
- 
+
 
 
 @media  (max-width:1190px ) 
