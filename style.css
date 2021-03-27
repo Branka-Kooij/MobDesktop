@@ -1,0 +1,163 @@
+@media (max-width: 480px){
+.container
+        {
+            margin:auto;
+            width: :100%;
+            height: 100%;
+           display: grid;
+            grid-template-columns:1fr 1fr 1fr 1fr ;
+            grid-template-rows: 15% 50%  20% auto;
+            ;
+            grid-gap: 5px;
+            
+            grid-template-areas: 
+                "h h h h "
+                "m m m m "
+                "w w w w "
+                "f f f f "  ;
+            
+          background:#eeebdd;
+            border: solid black 2px;
+            grid-auto-flow: dense;
+            
+            
+        }
+.site-header
+{
+grid-area: h;
+    
+background:#8ac4d0;
+}
+
+.site-main
+{
+   grid-area: m; 
+background:#d8ebe4;
+
+}
+
+.wiget-area
+{
+    grid-area: w;
+    background:#b4aee8;
+
+
+    
+}
+.site-footer
+{
+    grid-area: f;            
+    background: #28527a;
+    color: beige
+
+}
+
+}
+ 
+
+
+@media  (max-width:1200px) 
+{
+.container{
+    margin: auto;
+                width: :100%;
+
+    height: 100%;
+    display: grid;
+    grid-gap: 7px;
+    grid-auto-columns: 1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr  1fr;
+    grid-template-rows: 73% 20% auto  ;
+    grid-template-areas: 
+        "h h m m m m m m m m m m"
+        "h h w w w w w w w w w w"
+        "h h f f f f f f f f f f";
+
+        grid-auto-flow: dense;
+}
+.site-header
+{
+grid-area: h;
+
+    
+    
+background:#8ac4d0;
+}
+
+.site-main
+{
+   grid-area: m; 
+background:#d8ebe4;
+
+}
+
+.wiget-area
+{
+    grid-area: w ;
+    background:#b4aee8;
+
+
+    
+}
+.site-footer
+{
+    grid-area: f ;            
+    background: #28527a;
+    color: beige
+
+}
+}
+    
+@media (min-width: 1200px)  {
+
+.container{
+    margin: auto;
+    height:100%;
+    display: grid;
+    grid-gap: 7px;
+    grid-auto-columns: 1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr  1fr;
+    grid-template-rows: 50% 30% auto ;
+    grid-template-areas: 
+        "h h m m m m m m m m w w"
+        "h h m m m m m m m m w w"
+        "h h f f f f f f f f w w";
+
+        grid-auto-flow: dense;
+    }
+.site-header
+{
+grid-area: h;
+
+    
+    
+background:#8ac4d0;
+}
+
+.site-main
+{
+   grid-area: m; 
+background:#d8ebe4;
+
+}
+
+.wiget-area
+{
+    grid-area: w ;
+    background:#b4aee8;
+
+
+    
+}
+.site-footer
+{
+    grid-area: f ;            
+    background: #28527a;
+    color: beige
+
+}
+    }
+
+
+
+
+
+
