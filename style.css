@@ -1,4 +1,4 @@
-@media  (min-width: 600px){
+@media screen and  (max-width: 840px){
 .container
         {
             margin:auto;
@@ -56,7 +56,7 @@ background:#d8ebe4;
  
 
 
-@media (min-width:830px ) 
+@media screen and (max-width:1190px ) 
 {
 .container{
     margin: auto;
@@ -107,7 +107,7 @@ background:#d8ebe4;
 }
 }
     
-@media (min-width: 1200px)  {
+@media  screen and (min-width: 1200px)  {
 
 .container{
     margin: auto;
