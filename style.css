@@ -56,7 +56,7 @@ background:#d8ebe4;
  
 
 
-@media (min-width:830px)and (max-width:1200px) 
+@media (min-width:830px max-width:1200px) 
 {
 .container{
     margin: auto;
