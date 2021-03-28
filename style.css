@@ -57,7 +57,7 @@ background:#d8ebe4;
 
 
 
-@media  (Min-width:1024 max-width:1199px ) 
+@media  (Min-width:1024  ) 
 {
 .container{
     margin: auto;
@@ -108,7 +108,7 @@ background:#d8ebe4;
 }
 }
     
-@media   (min-width: 1024px)  {
+@media   (min-width: 1280px)  {
 
 .container{
     margin: auto;
