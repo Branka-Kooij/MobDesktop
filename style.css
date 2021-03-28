@@ -108,7 +108,7 @@ background:#d8ebe4;
 }
 }
     
-@media   (min-width: 1200px)  {
+@media   (min-width: 1024px)  {
 
 .container{
     margin: auto;
